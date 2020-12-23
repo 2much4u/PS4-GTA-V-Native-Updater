@@ -178,6 +178,7 @@ def createHeader(mergedMap):
     newFile.close()
 
     print("newHeader.h created")
+    print("Unable to replace " + str(missedNatives) + " natives")
 
 crossmap = parseCrossmap()
 functionMap = findNativeFunctions()
