@@ -54,7 +54,7 @@ Failed to find address for 0x77faddcbe3499df7L
 newHeader.h created
 Unable to replace 8 natives
 ```
-The file `newHeader.h` can be found in the same directory as your IDA database.
+The file `newHeader.h` can be found in the same directory as your IDA database. The hex value `0xDEADBEEF` will put in place for any native this script is unable to find a function address for.
 ### 7. (Optional) Fix header for use in Native Caller
 For use in my PS4 GTA V Native Caller, you will need to replace
 ```c
