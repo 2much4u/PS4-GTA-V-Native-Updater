@@ -10,9 +10,9 @@ Rockstar randomizes native hashes every GTA V version. Modding tools need these 
 ### 3. Select a crossmap file
 A crossmap file is a text file representing a map from a previous GTA V version's native hashes to a new version's native hashes. These can commonly be found online with a quick Google search for any version of GTA V. The file format is expected to be:
 ```c
-0xOLDHASH, 0xNEWHASH
-0xOLDHASH2, 0xNEWHASH2
-0xOLDHASH3, 0xNEWHASH3
+0xOLDHASH,0xNEWHASH
+0xOLDHASH2,0xNEWHASH2
+0xOLDHASH3,0xNEWHASH3
 ...
 ```
 ### 4. Select the `registerNative` function
