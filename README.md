@@ -1,5 +1,5 @@
 # PS4 GTA V Native Updater
-An IDA Pro script to update native addresses for new versions
+An IDA Pro script to update native addresses for new versions. Check out the Ghidra version by ethylamine [here](https://gist.github.com/ethylamine/625f799e7d9ccbaacdccf52ca46f2f62)!
 
 ## Purpose
 Rockstar randomizes native hashes every GTA V version. Modding tools need these new hashes to determine what address to call for a given native function. This IDA script will generate `natives.h` for any new version of GTA V to be used in projects like [Native Caller](https://github.com/2much4u/PS4-GTA-V-Native-Caller) or [Menu Base](https://github.com/2much4u/PS4-GTA-V-Menu-Base). You can read more about what natives are and why they are useful in the `README` for [Native Caller](https://github.com/2much4u/PS4-GTA-V-Native-Caller).
